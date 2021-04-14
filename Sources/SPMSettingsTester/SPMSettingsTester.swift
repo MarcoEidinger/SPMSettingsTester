@@ -1,4 +1,4 @@
-struct SPMSettingsTester {
+public struct SPMSettingsTester {
     public static func sqliteHasCodec() -> Bool {
         #if SQLITE_HAS_CODEC
             print("has Codec")
