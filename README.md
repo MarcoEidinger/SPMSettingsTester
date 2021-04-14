@@ -18,8 +18,9 @@ struct SPMSettingsTester {
 }
 ```
 
-Static function should return true if [define(_:_:)](https://developer.apple.com/documentation/swift_packages/swiftsetting/3112769-define) was used to define hte compilitation condition
+Static function should return true if [define(_:_:)](https://developer.apple.com/documentation/swift_packages/swiftsetting/3112769-define) was used to define the compilitation condition
 
+```swift
 .target(
     name: "SPMSettingsTester",
     dependencies: [],
