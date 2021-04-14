@@ -8,6 +8,11 @@ let package = Package(
     products: [
         .library(
             name: "SPMSettingsTester",
+            type: .static,
+            targets: ["SPMSettingsTester", "SPMSettingsTesterObjC", "SPMSettingsTesterObjCBlank"]),
+        .library(
+            name: "SPMSettingsTester-Dynamic",
+            type: .dynamic,
             targets: ["SPMSettingsTester", "SPMSettingsTesterObjC", "SPMSettingsTesterObjCBlank"]),
     ],
     dependencies: [
